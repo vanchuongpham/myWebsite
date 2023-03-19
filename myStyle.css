@@ -7,13 +7,13 @@ body{
 .header {
     text-align: center;
     background-color: aquamarine;
-    padding-bottom: 0vw;
+    padding-bottom: 1vh;
     border: 0.25vw solid black;
-    height: 10vh;
 }
 .header span{
-    padding-bottom: 1.5vw;
-    font-size: 3vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
 
 }
 
@@ -78,13 +78,12 @@ body{
 }
 
 .main-myphoto{
+    margin-top: 2vh;
     width: 80%;
     height:90vh;
     float: right;
     background-color: blanchedalmond;
     overflow: auto;
-    scrollbar-width:none;
-    scrollbar-color: Red;
 
 }
 .main-myphoto::-webkit-scrollbar{
@@ -108,8 +107,8 @@ body{
 }
 .side-myphoto{
     width: 20%;
-    margin-top: 5vh;
-    height: 80vh;
+    margin-top: 2vh;
+    height: 90vh;
     float: left;
     background-color: aquamarine;
     border: 0.25vw solid black;
