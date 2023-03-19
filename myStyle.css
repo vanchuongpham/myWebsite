@@ -1,19 +1,119 @@
-.header-txt{
-    
-    padding: 1.5vw;
-    font-size: 3vw;
-    
+*{
+    box-sizing: border-box;
 }
-.header-background{
+body{
+    background-color:antiquewhite;
+}
+.header {
     text-align: center;
     background-color: aquamarine;
-    padding-bottom: 5px;
-    border: 3px solid black;
+    padding-bottom: 0vw;
+    border: 0.25vw solid black;
+    height: 10vh;
 }
-.main{
-    padding-top: 10px;
+.header span{
+    padding-bottom: 1.5vw;
+    font-size: 3vw;
+
 }
-p{
+
+.main-home{
+    padding: 5vw 5vw 5vw 5vw;
+    width: 65%;
+    float: left;
+    border: 0vw solid black;
+
+}
+.main-contact{
+    padding: 5vw 5vw 5vw 5vw;
+    width: 65%;
+    float: left;
+    border: 0vw solid black;
+}
+.main-contact h1{
+    text-align: center;
+}
+.main-contact img{
+    padding: 5vw 5vw 5vw 5vw;
+    width: 30vw;
+    border: 0vw solid black;
+
+}
+.main-contact table{
+    margin: auto auto auto auto;
+}
+.main-resume{
+    padding: 5vw 5vw 5vw 5vw;
+    width: 65%;
+    float: left;
+    border: 0vw solid black;
     
-    text-indent: 50px;
+}
+.main-resume p {
+    padding-left: 5vw;
+}
+.main-resume span{
+    line-height: 2vw;
+}
+.main-resume h1{
+    text-align: center;
+}
+.main-resume h3{
+    display: inline;
+    padding-left: 2.5vw;
+}
+
+.avatar{
+    width: 35%;
+    padding: 5vw 5vw 5vw 5vw;
+    float: right;
+    border: 0vw solid black;
+    
+}
+.avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.main-myphoto{
+    width: 80%;
+    height:90vh;
+    float: right;
+    background-color: blanchedalmond;
+    overflow: auto;
+    scrollbar-width:none;
+    scrollbar-color: Red;
+
+}
+.main-myphoto::-webkit-scrollbar{
+    width: 0px;
+}
+
+.main-myphoto h1{
+    text-align: center;
+}
+.main-myphoto h2{
+    text-align: center;
+}
+.main-myphoto img{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 0.2vw solid black;
+}
+.side-myphoto{
+    width: 20%;
+    margin-top: 5vh;
+    height: 80vh;
+    float: left;
+    background-color: aquamarine;
+    border: 0.25vw solid black;
+}
+.side-myphoto p{
+    text-align: center;
 }
