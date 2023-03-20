@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite;
+}
+.header {
+    text-align: center;
+    background-color: aquamarine;
+    padding-bottom: 1vh;
+    border: 0.25vw solid black;
+}
+.header span{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+
+}
+.main-contact{
+    padding: 5vw 5vw 5vw 5vw;
+    width: 65%;
+    float: left;
+    border: 0vw solid black;
+}
+.main-contact h1{
+    text-align: center;
+}
+.main-contact img{
+    padding: 5vw 5vw 5vw 5vw;
+    width: 30vw;
+    border: 0vw solid black;
+
+}
+.main-contact table{
+    margin: auto auto auto auto;
+}
+
+.avatar{
+    width: 35%;
+    padding: 5vw 5vw 5vw 5vw;
+    float: right;
+    border: 0vw solid black;
+    
+}
+.avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

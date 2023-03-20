@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite;
+}
+.header {
+    text-align: center;
+    background-color: aquamarine;
+    padding-bottom: 1vh;
+    border: 0.25vw solid black;
+}
+.header span{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vw;
+
+}
+.main-myphoto{
+    margin-top: 2vh;
+    width: 80%;
+    height:90vh;
+    float: right;
+    background-color: blanchedalmond;
+    overflow: auto;
+
+}
+.main-myphoto::-webkit-scrollbar{
+    width: 0px;
+}
+
+.main-myphoto h1{
+    text-align: center;
+}
+.main-myphoto h2{
+    text-align: center;
+}
+.main-myphoto img{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 0.2vw solid black;
+}
+.side-myphoto{
+    width: 20%;
+    margin-top: 2vh;
+    height: 90vh;
+    float: left;
+    background-color: aquamarine;
+    border: 0.25vw solid black;
+}
+.side-myphoto p{
+    text-align: center;
+}
