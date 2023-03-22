@@ -24,3 +24,16 @@ body{
     border: 0vw solid black;
 
 }
+.avatar{
+    width: 35%;
+    padding: 5vw 5vw 5vw 5vw;
+    float: right;
+    border: 0vw solid black;
+    
+}
+.avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
