@@ -52,6 +52,6 @@ body{
     background-color: aquamarine;
     border: 0.25vw solid black;
 }
-.side-myphoto p{
+.side-myphoto p,h1,h2,h3{
     text-align: center;
 }
