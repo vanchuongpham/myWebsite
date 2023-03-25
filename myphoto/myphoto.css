@@ -44,6 +44,14 @@ body{
     margin-bottom: 1vh;
     border: 0.2vw solid black;
 }
+.main-myphoto video{
+    display:block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
 .side-myphoto{
     width: 20%;
     margin-top: 2vh;
