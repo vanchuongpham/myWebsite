@@ -45,8 +45,7 @@ body{
     border: 0.2vw solid black;
 }
 .main-myphoto iframe{
-    width: 60vw;
-    height: 60vh;
+    width: 80%;
     display:block;
     margin-left: auto;
     margin-right: auto;
